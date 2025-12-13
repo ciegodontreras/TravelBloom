@@ -1,0 +1,115 @@
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(75, 75, 75);
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    background-image: url('citySkyView.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.search-bar {
+    margin-left: auto;
+}
+
+li {
+    margin: 10px;
+}
+
+h1, p {
+    color: #FFF;
+}
+
+.home-intro {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 25vw;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutUsDescription {
+    width: 75vw;
+    font-size: larger;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.341);
+}
+
+.team {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    background-color: rgba(0, 0, 0, 0.341);
+    padding: 1%;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+.contactUs {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input, textarea {
+    background-color: rgba(0, 0, 0, 0.341);
+    height: 5vh;
+    margin-bottom: 3%;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+textarea {
+    height: 25vh;
+}
+
+button {
+    height: 5vh;
+    background-color: rgb(33, 132, 181);
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(33, 132, 181, 0.74);
+}
