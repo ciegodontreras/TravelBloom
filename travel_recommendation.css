@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-image: url('citySkyView.jpeg');
+    background-image: url('images/citySkyView.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -112,4 +112,16 @@ button {
 
 button:hover {
     background-color: rgba(33, 132, 181, 0.74);
+}
+
+#results {
+    background-color: rgba(0, 0, 0, 0.341);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
 }
